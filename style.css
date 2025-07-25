@@ -1,12 +1,27 @@
-
 .noto-serif{
     font-family: "Noto Serif", serif;
 }
 .inter{
     font-family: "Inter", sans-serif;
 }
-
-
-
+.latest-deal-img-1{
+border-radius: 14px;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("deal-bloom.png");
+background-size: cover;    
+}
+.latest-deal-img-2{
+border-radius: 14px;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("deal-ana.png");
+background-size: cover;
+}
+.latest-deal-img-3{
+border-radius: 14px;
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("deal-zabo.png");
+background-size: cover;
+}
+.join{
+    background-image: url(news-letter-bg.png);
+    background-size: cover;
+}
 
 @import "tailwindcss";
